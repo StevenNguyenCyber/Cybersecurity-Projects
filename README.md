@@ -2,8 +2,6 @@
 
 ## Overview
 
-Project Objective
-
 The primary goal of this project is to set up a controlled lab environment to simulate, identify, analyze, and mitigate security vulnerabilities using VMware for virtualization, Kali Purple for security analysis, and Metasploit for exploitation testing. This lab will provide hands-on experience in vulnerability management and enhance understanding of cybersecurity practices.
 ## Objectives
 
