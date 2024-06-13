@@ -1,8 +1,5 @@
 # Vulnerability Management Lab Using VMware, Kali Purple, and Metasploit
 
-![10](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/dcbbd122-9cf7-42af-9513-841eb780f96f)
-
-
 ## Overview
 
 Project Objective
@@ -10,7 +7,6 @@ Project Objective
 The primary goal of this project is to set up a controlled lab environment to simulate, identify, analyze, and mitigate security vulnerabilities using VMware for virtualization, Kali Purple for security analysis, and Metasploit for exploitation testing. This lab will provide hands-on experience in vulnerability management and enhance understanding of cybersecurity practices.
 ## Objectives
 
-![11](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/77004a99-0187-4cf5-8bf4-0ecfc373c4ec)
 
 During this lab, we will:
 
@@ -72,13 +68,8 @@ I initiated the installations by attaching the ISO files to their respective VMs
 
 - **Install Windows Server 2019:** Follow the on-screen instructions until you reach the account setup stage.
   
-  ![IMG_1735](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/9ddc81f9-b45e-4b8c-ba31-9aa044cf92ba)
-  
 - **Create an Admin Account:** As part of the installation, you'll be prompted to create an administrator account. Here, I provided a username and a robust and unique password for enhanced security. This account will have elevated permissions, so it's crucial to protect it adequately.
 
-  ![IMG_1737](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/67547c2b-797c-4ca2-b4d1-b1a71897ad13)
-
-  ![IMG_1739](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/4d16f5ae-3b6c-4ca8-be5a-ff8476ba66b4)
 
 ### Laying Down the Operating Systems and Configuring NICs
 
@@ -100,8 +91,6 @@ Doing so has established a secure yet flexible network topology indispensable fo
 ## Integrating Active Directory Domain Services
 
 - Upon booting up Windows Server, I ventured into the Server Manager, and from there, I meticulously added the "Active Directory Domain Services" role.
-
-![ACTIVEDIRECTORY LAB2](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/5877e1da-97c1-4d92-86ce-1c09d133d956)
 
 
 ## Crafting a Domain Admin Account
@@ -183,7 +172,6 @@ Here, two variables are being defined:
     
 - This line displays a message in the console to show which user is being created.
 
-![Creating User](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/553bc266-6f88-4045-895b-77a72ed508bc)
 
 
 ### Create the new user:
@@ -202,7 +190,7 @@ The main goal of this script is to demonstrate automation capabilities in Active
 
 With our Windows 10 VM ready, I configured it to connect to our server's environment. Subsequently, I logged off and back in, simulating the experience of one of our batch-created users.
 
-![ACTIVEDIRECTORY LAB 2](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/a734965e-cfdf-40f3-9c54-a313a185213b)
+
 
 
 ## Final Thoughts and Conclusions
