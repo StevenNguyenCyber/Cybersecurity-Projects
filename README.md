@@ -1,10 +1,15 @@
-# Vulnerability Management Lab Using VMware, Kali Purple, and Metasploit
+# Vulnerability Managment using VMware, Kali Purple, Greenbone, and Metasploit
+
+![10]()
+
 
 ## Overview
 
-The primary goal of this project is to set up a controlled lab environment to simulate, identify, analyze, and mitigate security vulnerabilities using VMware for virtualization, Kali Purple for security analysis, and Metasploit for exploitation testing. This lab will provide hands-on experience in vulnerability management and enhance understanding of cybersecurity practices.
+To simulate a real-world Active Directory environment, I attempted this lab to walk through the essentials of setting up and configuring a Windows-based network. The objective is two-fold: first, to provide a granular understanding of how Active Directory functions, and second, to explore the broader aspects of Windows networking. By leveraging Oracle's VirtualBox, I've orchestrated a simulated environment comprising two virtual machines. One machine runs Windows Server 2019, acting as the Domain Controller, and the other runs Windows 10 to emulate a client experience.
+
 ## Objectives
 
+![11]()
 
 During this lab, we will:
 
@@ -19,38 +24,16 @@ During this lab, we will:
 
 ## Technologies Used:
 
-Components
 
-    VMware:
-        Purpose: To create isolated virtual environments for testing.
-        Role: Host multiple virtual machines (VMs) running different operating systems and applications to simulate real-world network environments.
+-VMware enables the creation of virtual machines, allowing isolated testing environments, multiple OS deployments, and system snapshots. It helps simulate network environments to test vulnerabilities and patches safely.
 
-    Kali Purple:
-        Purpose: To provide a comprehensive security toolset specifically for defensive cybersecurity operations.
-        Role: Perform vulnerability assessments, security monitoring, and analysis within the lab environment.
 
-    Metasploit:
-        Purpose: To serve as a penetration testing framework.
-        Role: Identify and exploit vulnerabilities in the lab's virtual machines to simulate potential attacks and assess the effectiveness of defenses.
+-Kali Purple is a defensive version of Kali Linux, equipped for threat detection, incident response, and security monitoring. It's essential for real-time vulnerability detection and analysis.
 
-Lab Setup
+-Greenbone's GVM (Greenbone Vulnerability Management) includes OpenVAS, offering vulnerability scanning, risk assessment, and reporting. It's crucial for discovering and prioritizing vulnerabilities.
 
-    Environment Preparation:
-        Install VMware on a host machine.
-        Download and set up the latest versions of Kali Purple and Metasploit.
+-Metasploit is a penetration testing framework for exploit development, testing, and post-exploitation activities. It validates vulnerabilities and tests remediation effectiveness.
 
-    Virtual Machines Configuration:
-        VM1: Kali Purple:
-            Install and configure Kali Purple on the first VM.
-            Update all tools and repositories to ensure the latest vulnerabilities can be detected.
-        VM2: Target Machine:
-            Install an operating system (e.g., Windows, Linux) with known vulnerabilities.
-            Configure necessary services and applications that are commonly targeted (e.g., web servers, databases).
-
-    Networking Setup:
-        Configure network settings in VMware to allow communication between VMs.
-        Ensure the network simulates a real-world environment with internet access where necessary.
-        
 ## Installation
 
 ### Create Virtual Machines in VirtualBox
@@ -66,8 +49,13 @@ I initiated the installations by attaching the ISO files to their respective VMs
 
 - **Install Windows Server 2019:** Follow the on-screen instructions until you reach the account setup stage.
   
+  ![IMG_1735]()
+  
 - **Create an Admin Account:** As part of the installation, you'll be prompted to create an administrator account. Here, I provided a username and a robust and unique password for enhanced security. This account will have elevated permissions, so it's crucial to protect it adequately.
 
+  ![IMG_1737]()
+
+  ![IMG_1739]()
 
 ### Laying Down the Operating Systems and Configuring NICs
 
@@ -89,6 +77,8 @@ Doing so has established a secure yet flexible network topology indispensable fo
 ## Integrating Active Directory Domain Services
 
 - Upon booting up Windows Server, I ventured into the Server Manager, and from there, I meticulously added the "Active Directory Domain Services" role.
+
+![ACTIVEDIRECTORY LAB2]()
 
 
 ## Crafting a Domain Admin Account
@@ -170,6 +160,7 @@ Here, two variables are being defined:
     
 - This line displays a message in the console to show which user is being created.
 
+![Creating User]()
 
 
 ### Create the new user:
@@ -188,7 +179,7 @@ The main goal of this script is to demonstrate automation capabilities in Active
 
 With our Windows 10 VM ready, I configured it to connect to our server's environment. Subsequently, I logged off and back in, simulating the experience of one of our batch-created users.
 
-
+![ACTIVEDIRECTORY LAB 2]()
 
 
 ## Final Thoughts and Conclusions
