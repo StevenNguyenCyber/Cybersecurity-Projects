@@ -5,7 +5,7 @@
 
 ## Overview
 
-To simulate a real-world Active Directory environment, I attempted this lab to walk through the essentials of setting up and configuring a Windows-based network. The objective is two-fold: first, to provide a granular understanding of how Active Directory functions, and second, to explore the broader aspects of Windows networking. By leveraging Oracle's VirtualBox, I've orchestrated a simulated environment comprising two virtual machines. One machine runs Windows Server 2019, acting as the Domain Controller, and the other runs Windows 10 to emulate a client experience.
+Vulnerability management using VMware, Kali Purple, Greenbone, and Metasploit involves creating a virtualized network environment with VMware to simulate real-world conditions, utilizing Kali Purple for defensive security operations and real-time threat detection, employing Greenbone for comprehensive vulnerability scanning and risk assessment, and leveraging Metasploit for penetration testing and validating identified vulnerabilities. This integrated approach provides a robust framework for identifying, analyzing, and mitigating security risks in a controlled and effective manner.ce.
 
 ## Objectives
 
@@ -14,41 +14,23 @@ To simulate a real-world Active Directory environment, I attempted this lab to w
 During this lab, we will:
 
 - Set up Active Directory Domain Services from scratch.
-- Create a dedicated Domain Admin account, ensuring security and control.
-- Deploy a DHCP server to allocate IP addresses dynamically.
-- Show the creation of an Organizational Unit for better user management.
-- Delve into the intricacies of Routing and Remote Access to emulate a corporate intranet.
-- Configure the Network Interface Card (NIC), ensuring local and internet connectivity.
-- Demonstrate mass user management by leveraging PowerShell to batch-add over 1000 users.
-- Interact with our client machine, simulating a login process using one of our newly added users.
 
 ## Technologies Used:
 
+- VMware: Provides the virtualization platform for creating and managing the virtual machines.
 
--VMware enables the creation of virtual machines, allowing isolated testing environments, multiple OS deployments, and system snapshots. It helps simulate network environments to test vulnerabilities and patches safely.
+- Kali Purple: Used for defensive security operations, including threat detection and incident response.
 
+- Greenbone: Utilized for vulnerability scanning and risk assessment.
 
--Kali Purple is a defensive version of Kali Linux, equipped for threat detection, incident response, and security monitoring. It's essential for real-time vulnerability detection and analysis.
+- Metasploit: Employed for penetration testing and validating vulnerabilities.
 
--Greenbone's GVM (Greenbone Vulnerability Management) includes OpenVAS, offering vulnerability scanning, risk assessment, and reporting. It's crucial for discovering and prioritizing vulnerabilities.
+## Installation of VMware Workstation 17
 
--Metasploit is a penetration testing framework for exploit development, testing, and post-exploitation activities. It validates vulnerabilities and tests remediation effectiveness.
+Download the executable file at the VMware website. Once downloaded, double-click the .exe file to run the installer. I mainly used default settings, with 60GB capacity for HD space for Windows OS.
+        
+## Create Virtual Environment instance in VMware for Metasploit
 
-## Installation
-
-### Create Virtual Machines in VirtualBox
-
-- Open Oracle VirtualBox and click "New."
-- Name the first machine as "DC" and select Microsoft Windows as the type and Windows (64-bit) as the version.
-- Assign at least 2 GB of RAM and create a new virtual hard disk of at least 50 GB.
-- Repeat the process for our Windows 10 machine and name it "CLIENT."
-
-### Installing the Operating Systems and Initial Setup
-
-I initiated the installations by attaching the ISO files to their respective VMs. Windows Server 2019 required additional attention during setup to ensure proper administrative access. Here are the specifics:
-
-- **Install Windows Server 2019:** Follow the on-screen instructions until you reach the account setup stage.
-  
   ![IMG_1735]()
   
 - **Create an Admin Account:** As part of the installation, you'll be prompted to create an administrator account. Here, I provided a username and a robust and unique password for enhanced security. This account will have elevated permissions, so it's crucial to protect it adequately.
