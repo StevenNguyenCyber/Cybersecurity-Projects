@@ -1,11 +1,11 @@
-# Vulnerability Managment using VMware, Kali Purple, Greenbone, and Metasploit
+# Vulnerability Managment using VMware, Kali Purple, Greenbone, and Metasploitable
 
 ![10]()
 
 
 ## Overview
 
-Vulnerability management using VMware, Kali Purple, Greenbone, and Metasploit involves creating a virtualized network environment with VMware to simulate real-world conditions, utilizing Kali Purple for defensive security operations and real-time threat detection, employing Greenbone for comprehensive vulnerability scanning and risk assessment, and leveraging Metasploit for penetration testing and validating identified vulnerabilities. This integrated approach provides a robust framework for identifying, analyzing, and mitigating security risks in a controlled and effective manner.ce.
+Vulnerability management using VMware, Kali Purple, Greenbone, and Metasploitable involves creating a virtualized network environment with VMware to simulate real-world conditions, utilizing Kali Purple for defensive security operations and real-time threat detection, employing Greenbone for comprehensive vulnerability scanning and risk assessment, and leveraging Metasploit for penetration testing and validating identified vulnerabilities. This integrated approach provides a robust framework for identifying, analyzing, and mitigating security risks in a controlled and effective manner.ce.
 
 ## Objectives
 
@@ -23,36 +23,36 @@ During this lab, we will:
 
 - Greenbone: Utilized for vulnerability scanning and risk assessment.
 
-- Metasploit: Employed for penetration testing and validating vulnerabilities.
+- Metasploitable: Employed for penetration testing and validating vulnerabilities.
 
-## Installation of VMware Workstation 17
+## Installation of VMware Workstation Player 17
 
 Download the executable file at the VMware website. Once downloaded, double-click the .exe file to run the installer. I mainly used default settings, with 60GB capacity for HD space for Windows OS.
         
-## Create Virtual Environment instance in VMware for Metasploit
+## Create the first Virtual Environment instance in VMware for Metasploitable
+![IMG_1735]()
 
-  ![IMG_1735]()
-  
-- **Create an Admin Account:** As part of the installation, you'll be prompted to create an administrator account. Here, I provided a username and a robust and unique password for enhanced security. This account will have elevated permissions, so it's crucial to protect it adequately.
+-Launch VMware Workstation Player 17 and select "Open a Virtual Machine".
 
-  ![IMG_1737]()
+-Find the Metasploitable exe. file and run it as a Virtual Machine.
 
-  ![IMG_1739]()
+-After it boots up, the main account is "msfadmin" and the password is also "msfadmin".
 
-### Laying Down the Operating Systems and Configuring NICs
+-Leave this running and available on the side as the first Virtual instance.
 
-I initiated the installation process after attaching the ISO files to their respective VMs. The on-screen instructions are generally straightforward, leading to a successful installation of both operating systems.
 
-In addition, for our Domain Controller, it's imperative to configure dual Network Interface Cards (NICs) for effective network management. Here's how I set them up
+## Create the second Virtual Environment instance for Kali Purple
 
-- **NIC for Open Internet:** The first NIC is configured to use Network Address Translation (NAT), enabling our Domain Controller to connect to the open Internet.
-  
-- **NIC for Internal Network:** The second NIC is allocated exclusively to our internal virtual network, ensuring isolated communication within our simulated environment.
+-Return to VMware and select "Create a new Virtual Machine".
 
-This dual NIC setup equips the Domain Controller with the network versatility needed for real-world applications, aligning perfectly with our lab's objectives. 
+-Locate the Kali Purple.iso, then follow through the setup wizard to install and configure the virtual environment.
 
-Doing so has established a secure yet flexible network topology indispensable for our Active Directory Lab.
+-Once the virual machine as Kali Purple has launched, open up a terminal and type "ifconfig", do the same on Metasploitable.
 
+-The ifconfig information should display an ip address for both virtual environments, as shown here.
+
+![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/1.PNG)
+![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/4.PNG)
 
 
 
