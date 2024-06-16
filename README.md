@@ -2,7 +2,7 @@
 
 ## Overview
 
-Vulnerability management using VMware, Kali Purple, Greenbone, and Metasploitable involves creating a virtualized network environment with VMware to simulate real-world conditions, utilizing Kali Purple for defensive security operations and real-time threat detection, employing Greenbone for comprehensive vulnerability scanning and risk assessment, and leveraging Metasploit for penetration testing and validating identified vulnerabilities. This integrated approach provides a robust framework for identifying, analyzing, and mitigating security risks in a controlled and effective manner.ce.
+Vulnerability management using VMware, Kali Purple, Greenbone, and Metasploitable involves creating a virtualized network environment with VMware to simulate real-world conditions, utilizing Kali Purple for defensive security operations and real-time threat detection, employing Greenbone for comprehensive vulnerability scanning and risk assessment, and leveraging Metasploit for penetration testing and validating identified vulnerabilities. This integrated approach provides a robust framework for identifying, analyzing, and mitigating security risks in a controlled and effective manner.
 
 ## Objectives
 
