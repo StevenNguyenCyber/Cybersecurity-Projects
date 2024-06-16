@@ -108,7 +108,7 @@ Download the executable file at the VMware website. Once downloaded, double-clic
 
 - On Greenbone, go to Configuration > Targets.
 
-- Create a new target, give it a name then on 'Host' next 'Manual', enter the Metaploitable's IP address.
+- Create a new target, give it a name then on 'Host' next to where 'Manual' is located, enter the Metaploitable's IP address.
 
 ![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/targeting%20meta.PNG?token=GHSAT0AAAAAACTJL6TNVSSM3GBJXPHD7ZM6ZTOOLVQ)
 
