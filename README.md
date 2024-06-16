@@ -50,7 +50,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 
 - The ifconfig information should display an IP address for both virtual environments to confirm that they are in the same network, as shown here.
 
-![IMG]([https://imgur.com/MRapRrw](https://imgur.com/8CKW3zD))
+![IMG](https://i.imgur.com/8CKW3zD.png)
 
 - Finally, enter 'nmap' then the 'IP address' on Kali Purple Terminal. It will show a report after it scans the network for its hosts and services.
 
