@@ -129,7 +129,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
   
 ![IMG](https://i.imgur.com/I6GtW9o.png)
 
-- The page lists several vulnerabilities that can be exploited, and each one can be also selected in individually to view a summary as well as on how to patch them.
+- The page lists several vulnerabilities that can be exploited, and each one can be also selected individually to view a summary as well as on how to patch them.
   
 ![IMG](https://i.imgur.com/cPHwRou.png)
 
