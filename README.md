@@ -48,10 +48,10 @@ Download the executable file at the VMware website. Once downloaded, double-clic
 
 - Do the same on Metasploitable.
 
-- The ifconfig information should display an ip address for both virtual environments to confirm that they are in the same network, as shown here.
+- The ifconfig information should display an IP address for both virtual environments to confirm that they are in the same network, as shown here.
 
-![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/1.PNG)
-![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/4.PNG)
+![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/stevencyberip.PNG?token=GHSAT0AAAAAACTJL6TNT4XYMNC7NON7PPS6ZTOOHGQ)
+![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/meta%20ip.PNG?token=GHSAT0AAAAAACTJL6TMZGBFPW6JX3Z7ZCIUZTOOIDQ)
 
 - Finally, type 'nmap' then the 'IP address' on Kali Purple Terminal. It will show a report after it scans the network for its hosts and services.
 
