@@ -75,7 +75,7 @@ Download the executable file at the VMware website. Once downloaded, double-clic
 
        sudo apt install gvm -y
   
-- Once complete, enter this command to install the initial set up for GVM
+- Once complete, enter this command to install the initial set up for GVM.
 
        sudo gvm-setup
 
@@ -126,7 +126,7 @@ Download the executable file at the VMware website. Once downloaded, double-clic
 
 - When the scan is completed, select the Report.
 
-- The results shown here are the current vulnerabilities that on Metasploitable, from most to least severe.
+- The results shown here are the current vulnerabilities that on Metasploitable, from levels of most to least severe.
   
 ![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/results.PNG)
 
