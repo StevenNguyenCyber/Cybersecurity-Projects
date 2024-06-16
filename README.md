@@ -44,20 +44,20 @@ Download the executable file at the VMware website. Once downloaded, double-clic
 
 ## Confirming IP addresses and using Nmap
 
-- Once the virual machine as Kali Purple has launched, open up a terminal and type "ifconfig".
+- Once the virual machine as Kali Purple has launched, open up a terminal and enter 'ifconfig'.
 
-- Do the same on Metasploitable.
+- Enter 'ifconfig" on Metasploitable.
 
 - The ifconfig information should display an IP address for both virtual environments to confirm that they are in the same network, as shown here.
 
 ![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/stevencyberip.PNG?token=GHSAT0AAAAAACTJL6TNT4XYMNC7NON7PPS6ZTOOHGQ)
 ![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/meta%20ip.PNG?token=GHSAT0AAAAAACTJL6TMZGBFPW6JX3Z7ZCIUZTOOIDQ)
 
-- Finally, type 'nmap' then the 'IP address' on Kali Purple Terminal. It will show a report after it scans the network for its hosts and services.
+- Finally, enter 'nmap' then the 'IP address' on Kali Purple Terminal. It will show a report after it scans the network for its hosts and services.
 
 - Here it is possible to learn about active devices in the netowrk, their IP addresses, open ports, running services and potential vulnerabilities. In this case, the network is our virtual instance created for Metasploitable.
 
-![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/2.PNG)
+![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/nmap%20report.PNG?token=GHSAT0AAAAAACTJL6TNMVCS5U7WGGUX4PIWZTOOKVQ)
 
 ## Updating Kali Purple
 
@@ -101,7 +101,7 @@ Download the executable file at the VMware website. Once downloaded, double-clic
   
 - This will show a column list of contents in the network system. The status should all be current but some maybe still in progress so wait until everything is current.
 
-![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/feed%20status.PNG)
+![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/feed%20status.PNG?token=GHSAT0AAAAAACTJL6TNOYLYNJE47IAFEJNIZTOOLFA)
 
 
 ## Targeting the Metasploitable and intiating the scan.
@@ -110,17 +110,17 @@ Download the executable file at the VMware website. Once downloaded, double-clic
 
 - Create a new target, give it a name then on 'Host' next 'Manual', enter the Metaploitable's IP address.
 
-![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/targeting%20meta.PNG)
+![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/targeting%20meta.PNG?token=GHSAT0AAAAAACTJL6TNVSSM3GBJXPHD7ZM6ZTOOLVQ)
 
 - Once completed, the scan cannot be executed until the Feed Status is completely current for the content items.
 
 - Go to Scans > Tasks > Select New Tasks. Name your task, then on 'Scan Targets' drop down to the target that was recently created and Save.
 
-![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/new%20task.PNG)
+![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/new%20task.PNG?token=GHSAT0AAAAAACTJL6TNINADHXUUREH3BOH6ZTOOMTQ)
 
 - At the bottom should have the target, then start the scan. 
 
-![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/requested%20task%20to%20scan.PNG)
+![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/requested%20task%20to%20scan.PNG?token=GHSAT0AAAAAACTJL6TM75OSYU4URF6H7IGUZTOONLA)
 
 ## Interpreting the Results
 
@@ -128,11 +128,11 @@ Download the executable file at the VMware website. Once downloaded, double-clic
 
 - The results shown here are the current vulnerabilities that on Metasploitable, from levels of most to least severe.
   
-![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/results.PNG)
+![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/results.PNG?token=GHSAT0AAAAAACTJL6TNGGIMP7Y6L3G5GD7GZTOONVA)
 
 - The page lists several vulnerabilities that can be exploited, and each one can be also selected in individually to view a summary as well as on how to patch them.
   
-![IMG](https://github.com/StevenNguyenCyber/Images/blob/main/results%20extra%20info.PNG)
+![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/results%20extra%20info.PNG?token=GHSAT0AAAAAACTJL6TM475MB3MKKAHZP3VUZTOOOBQ)
 
 ## Final Thoughts and Conclusions
 
