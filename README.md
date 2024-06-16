@@ -24,7 +24,7 @@ Download the executable file at the VMware website. Once downloaded, double-clic
         
 ## Create the first Virtual Environment instance in VMware for Metasploitable
 
-- Launch VMware Workstation Player 17 and select "Open a Virtual Machine".
+- Launch VMware Workstation 17 Player  and select "Open a Virtual Machine".
 
 - Find the Metasploitable exe. file and run it as a Virtual Machine.
 
