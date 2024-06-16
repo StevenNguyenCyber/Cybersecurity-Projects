@@ -42,7 +42,7 @@ Download the executable file at the VMware website. Once downloaded, double-clic
 - Log in after the set up wizard is complete.
 
 
-## Confirming IP addresses and using Nmap.
+## Confirming IP addresses and using Nmap
 
 - Once the virual machine as Kali Purple has launched, open up a terminal and type "ifconfig".
 
