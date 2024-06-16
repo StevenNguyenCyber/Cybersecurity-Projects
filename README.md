@@ -33,7 +33,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 - Leave this running and available on the side as the first virtual instance.
 
 
-## Create the second Virtual Environment instance for VMware for Kali Purple
+## Create the second Virtual Environment instance in VMware for Kali Purple
 
 - Return to VMware and select "Create a new Virtual Machine".
 
