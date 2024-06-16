@@ -20,7 +20,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 
 ## Installation of VMware Workstation 17 Player
 
-Download the executable file at the VMware website. Once downloaded, double-click the .exe file to run the installer. I mainly used default settings, with 60GB capacity for HD space for Windows OS.
+- Download the executable file at the VMware website. Once downloaded, double-click the .exe file to run the installer. Default settings is used along 20-60GB capacity of HD space for Windows OS.
         
 ## Create the first Virtual Environment instance in VMware for Metasploitable
 
