@@ -44,7 +44,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 
 ## Confirming IP addresses and using Nmap
 
-- Once the virual machine as Kali Purple has launched, open up a terminal and enter 'ifconfig'.
+- Once the virtual machine as Kali Purple has launched, open up a terminal and enter 'ifconfig'.
 
 - Enter 'ifconfig" on Metasploitable.
 
