@@ -33,7 +33,7 @@ Download the executable file at the VMware website. Once downloaded, double-clic
 - Leave this running and available on the side as the first virtual instance.
 
 
-## Create the second Virtual Environment instance for Kali Purple
+## Create the second Virtual Environment instance for VMware for Kali Purple
 
 - Return to VMware and select "Create a new Virtual Machine".
 
