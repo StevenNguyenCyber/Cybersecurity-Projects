@@ -101,8 +101,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
   
 - This will show a column list of contents in the network system. The status should all be current but some maybe still in progress so wait until everything is current.
 
-![IMG](https://imgur.com/JU30Af4)
-
+![IMG](https://i.imgur.com/JU30Af4.png)
 
 ## Targeting the Metasploitable and intiating the scan.
 
