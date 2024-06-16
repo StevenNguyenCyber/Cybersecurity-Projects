@@ -57,7 +57,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 
 - Here it is possible to learn about active devices in the netowrk, their IP addresses, open ports, running services and potential vulnerabilities. In this case, the network is our virtual instance created for Metasploitable.
 
-![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/nmap%20report.PNG?token=GHSAT0AAAAAACTJL6TNMVCS5U7WGGUX4PIWZTOOKVQ)
+![IMG](https://i.imgur.com/SJip9dw.png)
 
 ## Updating Kali Purple
 
@@ -101,7 +101,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
   
 - This will show a column list of contents in the network system. The status should all be current but some maybe still in progress so wait until everything is current.
 
-![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/feed%20status.PNG?token=GHSAT0AAAAAACTJL6TNOYLYNJE47IAFEJNIZTOOLFA)
+![IMG](https://imgur.com/JU30Af4)
 
 
 ## Targeting the Metasploitable and intiating the scan.
@@ -110,17 +110,17 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 
 - Create a new target, give it a name then on 'Host' next to where 'Manual' is located, enter the Metaploitable's IP address.
 
-![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/targeting%20meta.PNG?token=GHSAT0AAAAAACTJL6TNVSSM3GBJXPHD7ZM6ZTOOLVQ)
+![IMG](https://i.imgur.com/53S09j7.png)
 
 - Once completed, the scan cannot be executed until the Feed Status is completely current for the content items.
 
 - Go to Scans > Tasks > Select New Tasks. Name your task, then on 'Scan Targets' drop down to the target that was recently created and Save.
 
-![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/new%20task.PNG?token=GHSAT0AAAAAACTJL6TNINADHXUUREH3BOH6ZTOOMTQ)
+![IMG](https://i.imgur.com/wx4UWFg.png)
 
 - At the bottom should have the target, then start the scan. 
 
-![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/requested%20task%20to%20scan.PNG?token=GHSAT0AAAAAACTJL6TM75OSYU4URF6H7IGUZTOONLA)
+![IMG](https://i.imgur.com/OucfPOH.png)
 
 ## Interpreting the Results
 
@@ -128,11 +128,11 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 
 - The results shown here are the current vulnerabilities that on Metasploitable, from levels of most to least severe.
   
-![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/results.PNG?token=GHSAT0AAAAAACTJL6TNGGIMP7Y6L3G5GD7GZTOONVA)
+![IMG](https://i.imgur.com/I6GtW9o.png)
 
 - The page lists several vulnerabilities that can be exploited, and each one can be also selected in individually to view a summary as well as on how to patch them.
   
-![IMG](https://raw.githubusercontent.com/StevenNguyenCyber/Images/main/results%20extra%20info.PNG?token=GHSAT0AAAAAACTJL6TM475MB3MKKAHZP3VUZTOOOBQ)
+![IMG](https://i.imgur.com/cPHwRou.png)
 
 ## Final Thoughts and Conclusions
 
