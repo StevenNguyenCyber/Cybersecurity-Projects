@@ -55,7 +55,6 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 ![IMG](https://i.imgur.com/8CKW3zD.png)
 ![IMG](https://i.imgur.com/5PX8dgR.png)
 
-- Finally, enter 'nmap' then the 'IP address' on Kali Purple Terminal.
 - In the Kali Purple terminal, enter this cmd:
 
         nmap 192.168.xxx.xxx
