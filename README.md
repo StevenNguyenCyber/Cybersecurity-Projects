@@ -44,16 +44,23 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 
 ## Confirming IP addresses and using Nmap
 
-- Once the virtual machine for Kali Purple has launched, open up a terminal and enter 'ifconfig'.
+- Once the virtual machine for Kali Purple has launched, open up a terminal and enter this cmd:
 
-- Enter 'ifconfig" on Metasploitable.
+          ifconfig
+
+- Enter the same cmd on Metasploitable.
 
 - The ifconfig information should display an IP address for both virtual environments to confirm that they are in the same network, as shown here.
 
 ![IMG](https://i.imgur.com/8CKW3zD.png)
 ![IMG](https://i.imgur.com/5PX8dgR.png)
 
-- Finally, enter 'nmap' then the 'IP address' on Kali Purple Terminal. It will show a report after it scans the network for its hosts and services.
+- Finally, enter 'nmap' then the 'IP address' on Kali Purple Terminal.
+- In the Kali Purple terminal, enter this cmd:
+
+        nmap 192.168.xxx.xxx
+
+- It will show a report after it scans the network for its hosts and services.
 
 - Here it is possible to learn about active devices in the netowrk, their IP addresses, open ports, running services and potential vulnerabilities. In this case, the network is our virtual instance created for Metasploitable.
 
