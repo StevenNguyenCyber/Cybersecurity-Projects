@@ -1,4 +1,4 @@
-# Vulnerability Managment using VMware, Kali Purple, Greenbone, and Metasploitable
+# Vulnerability Managment Lab using VMware, Kali Purple, Greenbone, and Metasploitable
 
 ## Overview
 
