@@ -123,7 +123,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 
 ![IMG](https://i.imgur.com/wx4UWFg.png)
 
-- At the bottom should have the target, then start the scan. 
+- There will be a target item at the bottom of the page, then start the scan. 
 
 ![IMG](https://i.imgur.com/OucfPOH.png)
 
