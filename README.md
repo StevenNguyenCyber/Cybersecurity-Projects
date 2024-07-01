@@ -61,7 +61,7 @@ Use Kali Purple and GVM to scan and analyze Metaploitable to validate its vulner
 
 - It will show a report after it scans the network for its hosts and services.
 
-- Here it is possible to learn about active devices in the netowrk, their IP addresses, open ports, running services and potential vulnerabilities. In this case, the network is our virtual instance created for Metasploitable.
+- Here it is possible to learn about active devices in the network, their IP addresses, open ports, running services and potential vulnerabilities. In this case, the network is our virtual instance created for Metasploitable.
 
 ![IMG](https://i.imgur.com/SJip9dw.png)
 
